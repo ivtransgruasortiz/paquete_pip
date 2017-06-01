@@ -45,7 +45,7 @@ def create_lagged_series(symbol, start_date, end_date, lags=50,outcome_period=5)
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram
@@ -110,7 +110,7 @@ def fit_model(name, model, X_train, y_train, X_test, X_last, pred, pred_last):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram
@@ -148,7 +148,7 @@ def prediction(period,ticker):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram
@@ -252,7 +252,7 @@ def grafica(shortticker):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram
@@ -321,7 +321,7 @@ def oportunidaddesubida(ndiasmaximo,shortticker):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram
@@ -436,7 +436,7 @@ def var(p,c,ticker):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram

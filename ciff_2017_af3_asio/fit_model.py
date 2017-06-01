@@ -12,7 +12,7 @@ def fit_model(name, model, X_train, y_train, X_test, X_last, pred, pred_last):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram

@@ -36,4 +36,4 @@ def fit_model(name, model, X_train, y_train, X_test, X_last, pred, pred_last):
     pred["%s_Correct" % name] = (1.0+pred[name]*pred["Actual"])/2.0
     hit_rate = np.mean(pred["%s_Correct" % name])
     print "%s: %.3f" % (name, hit_rate)
-return hit_rate
+    return hit_rate

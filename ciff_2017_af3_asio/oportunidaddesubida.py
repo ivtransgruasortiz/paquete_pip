@@ -7,7 +7,7 @@ def oportunidaddesubida(ndiasmaximo,shortticker):
     import numpy as np
     import pandas as pd
     import json
-    import pygal
+    #import pygal
     import matplotlib.pyplot as plt
     from scipy.stats import norm
     from bokeh.charts import Histogram
